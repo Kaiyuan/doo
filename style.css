@@ -1,0 +1,256 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'Museo300Regular';
+    src: url('webfonts/museo_300/Museo300-Regular-webfont.eot');
+    src: url('webfonts/museo_300/Museo300-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/museo_300/Museo300-Regular-webfont.woff') format('woff'),
+         url('webfonts/museo_300/Museo300-Regular-webfont.ttf') format('truetype'),
+         url('webfonts/museo_300/Museo300-Regular-webfont.svg#Museo300Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Museo500Regular';
+    src: url('webfonts/museo_500/Museo500-Regular-webfont.eot');
+    src: url('webfonts/museo_500/Museo500-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/museo_500/Museo500-Regular-webfont.woff') format('woff'),
+         url('webfonts/museo_500/Museo500-Regular-webfont.ttf') format('truetype'),
+         url('webfonts/museo_500/Museo500-Regular-webfont.svg#Museo500Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*滚动条*/
+::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+	background: #f7f7f7;
+}
+::-webkit-scrollbar:hover {
+	background: #fff;
+}
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 2px rgba(0,0,0,0);
+}
+::-webkit-scrollbar-thumb {
+	box-shadow: inset 0 0 2px rgba(0,0,0,0),0 0 3px rgba(0,0,0,0);
+	background: #bbb;
+	border-radius: 5px;
+}
+body {
+	-webkit-text-size-adjust: none;
+	color: #000;
+	font-size: 100%;
+	font-weight: 300;
+	font-family: "Museo300Regular", "Helvetica Neue", Ubuntu, "WenQuanYi Micro Hei", Helvetica, "ff-tisa-web-pro-1","ff-tisa-web-pro-2","Lucida Grande","Hiragino Sans GB","Hiragino Sans GB W3", "Microsoft JhengHei", "PMingLiU", Arial, sans-serif;
+	-webkit-font-smoothing:antialiased;
+	text-shadow: 0 1px 1px rgba(255,255,255,1);
+	margin: 0px;
+	line-height: 1.6em;
+	padding: 0px;
+	background-color: #f7f7f7;
+	overflow-x: hidden;
+}
+::selection {
+    background:#C0E7FC;
+    color:#fff;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.051);
+}
+::-moz-selection {
+    background:#C0E7FC;
+    color:#fff;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.051);
+}
+::-webkit-selection {
+    background:#C0E7FC;
+    color:#fff;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.051);
+}
+::before, ::after {
+	position: absolute;
+}
+input, textarea, select {
+	outline: none;
+}
+table, td, tr, form, textarea {
+	margin: 0px;
+	padding: 0px;
+	border-width: 0px;
+}
+ol, ul, li {
+	list-style: none;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+hr {
+	border-width: 1px 0 0 0;
+	border-style: solid;
+	border-color: #eee;
+}
+body img {
+	border: 0px solid #eee;
+}
+a{
+	color: #2C769E;
+	text-decoration: none;
+	transition: all .3s;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+}
+a:hover{
+	color: #000;
+	background-color: #eee;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-weight: 500;
+	text-shadow: rgba(0,0,0,0.3) 0 1px 2px;
+	font-family: "Museo500Regular", "Helvetica Neue", Ubuntu, "WenQuanYi Micro Hei", Helvetica, "ff-tisa-web-pro-1","ff-tisa-web-pro-2","Lucida Grande","Hiragino Sans GB","Hiragino Sans GB W3", "Microsoft YaHei", "STXihei", "SimHei", Arial, sans-serif;
+}
+h1 {
+	font-size: 2em;
+}
+/*span*/
+.yellow {
+	background-color: #FFFFCC;
+}
+.yellow::selection {
+	background-color: #DFF3E4;
+	color: #999;
+}
+.blue {
+	background-color: #E1F3FC;
+}
+.blue::selection {
+	background-color: #A9DFFC;
+	color: #999;
+}
+.red {
+	background-color: #FFE8FF;
+}
+.red::selection {
+	background-color: #EAE2FE;
+	color: #999;
+}
+blockquote {
+	margin: 0.5em 0 0.5em 0;
+	padding: 0.1em 2em 0.1em 2em;
+	border-radius: 5px;
+	background: none #eee;
+}
+code {
+	background: #dee1e5;
+	padding: 0 0.3em;
+	border: 1px solid #D1D7E0;
+	border-radius: 5px;
+}
+pre {
+	box-shadow: inset 0 1px 8px rgba(0,0,0,0.5);
+	text-shadow: rgba(0,0,0,0.2) 0 1px 1px;
+	background: #658fd8 url(images/bluck_img.gif) 15px 5px;
+	color: #fff;
+	font-size: 12px;
+	line-height: 1.333;
+	white-space: pre;
+	padding: 5px 20px 5px 20px;
+	border-radius: 5px;
+	margin: 1.333em 0 1.333em 0;
+	overflow-x: hidden;
+	overflow-y: hidden;
+} 
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+head, .wrapper, section, .sidebar, footer {
+	width: 100%;
+	float: left;
+}
+.header, article, aside, footer .wrapper, .breadcrumbs {
+	width: 760px;
+	margin: 0 auto;
+	float: none;
+}
+#main-nav {
+	font-size: 0.8em;
+}
+section, .section, .header {
+	padding-bottom: 60px;
+}
+#section h2 {
+	font-size: 0.8em;
+}
+#logo {
+	font-size: 2.4em;
+}
+#main-nav {
+	float: right;
+}
+#main-nav ul, #main-nav li {
+	float: left;
+}
+#main-nav li {
+	margin-left: 25px;
+}
+#main-nav li a {
+	color: #000;
+}
+#main-nav li a:hover {
+	color: #000;
+	background: none;
+}
+#main-nav ul .current a {
+	color: #2C769E !important;
+}
+article a{
+	color: #2C769E;
+}
+article p {
+margin: 2em 0;
+line-height: 1.8em;
+}
+section img {
+	max-width: 100%;
+}
+footer, .footer {
+	font-size: 10px;
+}
+footer{
+	padding-bottom: 20px;
+}
+/*cnzz*/
+.cnzz {
+	line-height: 200px;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+/*自动适应*/
+/*iPad*/
+@media(max-width:759px) {
+	.header, article, aside, footer .wrapper, .breadcrumbs {
+		width: 98%;
+		margin: 0 1%;
+	}
+	article {
+		min-height: auto;
+	}
+}
+/*iPhone*/
+@media(max-width:568px) {
+
+}
+/*iPhone320*/
+@media(max-width:320px) {
+
+}
+/*Retina*/
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+    .divs {
+        background-image: url(images/header_2x.jpg);
+        background-size: cover;
+    }
+    /* ... more 2x CSS rules ... */
+}
