@@ -9,6 +9,8 @@
 ?><aside id="sidebar">
 	<!-- wrap each sidebar section like this -->
 	<div class="section">
-		<?php get_component('sidebar');	?>
+		<div class="border-top" style="padding: 0 0 60px 0">
+			<?php get_component('sidebar');	?>
+		</div>
 	</div>
 </aside>

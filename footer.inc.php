@@ -18,8 +18,10 @@
 			Please consider keeping the links to the developer and GetSimple if you use this theme
 		-->
 	 	<div class="wrapper">
-			<div class="left"><?php echo date('Y'); ?> <a href="<?php get_site_url(); ?>" ><?php get_site_name(); ?></a></div>
-			<div class="right">Theme by <a href="http://boxks.com" >Kaiyuan</a> &middot; <?php get_site_credits(); ?></div>
+	 		<div class="border-top" style="padding: 20px 0 40px 0">
+				<div class="left"><?php echo date('Y'); ?> <a href="<?php get_site_url(); ?>" ><?php get_site_name(); ?></a></div>
+				<div class="right">Theme by <a href="https://github.com/Kaiyuan/doo" >Kaiyuan</a> &middot; <?php get_site_credits(); ?></div>
+			</div>
 		</div>
 	</footer>
 	 
