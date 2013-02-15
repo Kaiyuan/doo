@@ -16,10 +16,10 @@ Innovation_Settings();
 include('header.inc.php'); 
 ?>
 	
-	<div class="wrapper clearfix">
+	<div id="article" class="wrapper clearfix">
 		<!-- page content -->
 		<article>
-			<section>
+			<section id="centerbox">
 				
 				<!-- title and content -->
 				<h1><?php get_page_title(); ?></h1>

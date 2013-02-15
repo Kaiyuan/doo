@@ -19,7 +19,14 @@
 	
 	<meta name="robots" content="index, follow">
 	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" /><!--缩放-->
+	<link href="<?php get_theme_url(); ?>/webfont.css" rel="stylesheet" media="screen, print" >
 	<link href="<?php get_theme_url(); ?>/style.css?v=<?php echo get_site_version(); ?>" rel="stylesheet" media="screen, print" >
+	<link rel="stylesheet" href="<?php get_theme_url(); ?>/highlight/styles/default.css">
+	<script src="<?php get_theme_url(); ?>/highlight/highlight.pack.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script>
+	<script src="<?php get_theme_url(); ?>/jquery.pjax.js"></script>
+	<script src="<?php get_theme_url(); ?>/script.js"></script>
 	
 	<!--[if lt IE 9]>
 		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
